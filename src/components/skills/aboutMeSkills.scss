@@ -1,0 +1,29 @@
+.about__skills_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 120px;
+  .about__skills_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    height: 270px;
+    background-color: rgba(42, 42, 42, 1);
+    border-radius: 32px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+
+    &_title {
+      font-size: 24px;
+      font-weight: 300;
+      color: #e4e4e4;
+    }
+    &_img {
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}

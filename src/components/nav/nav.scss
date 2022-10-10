@@ -1,0 +1,12 @@
+.header__menu {
+  margin-left: 200px;
+  & a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #e4e4e4;
+    &:not(:last-child) {
+      margin-right: 125px;
+    }
+  }
+}

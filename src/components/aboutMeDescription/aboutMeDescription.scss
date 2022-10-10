@@ -1,0 +1,75 @@
+.aboutme_wrap {
+  background: url("../../../public/images/Ellips.png") 100% 50% / cover;
+  width: 1224px;
+  height: 1000px;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 480px 300px;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+}
+.aboutme__photo-liitle,
+.aboutme__photo-long,
+.aboutme__photo-md {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 272px;
+  height: 320px;
+  background-color: #2c2c2c;
+  border-radius: 14px;
+  z-index: 1;
+
+  & img {
+    width: 90%;
+    height: 90%;
+  }
+}
+.aboutme__photo-long {
+  align-self: center;
+  justify-self: end;
+  margin-right: -42px;
+}
+.aboutme__photo-liitle {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  align-self: center;
+  margin-left: -26px;
+  height: 434px;
+}
+.aboutme__photo-md {
+  justify-self: end;
+  margin-right: -42px;
+  margin-top: 54px;
+}
+.aboutme__photo-liitle {
+  width: 280px;
+  height: 400px;
+}
+.aboutme__title_description {
+  background-color: #2c2c2c;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+
+  padding: 50px 63px;
+  border-radius: 0 14px 14px 14px;
+}
+.aboutme__descriptions {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  margin-top: 80px;
+}
+.aboutme__title {
+  font-size: 48px;
+  font-weight: 400;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  margin-bottom: -30px;
+  margin-left: 66px;
+}

@@ -1,0 +1,48 @@
+.contacts {
+  background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+  color: #e4e4e4;
+  padding: 50px 0;
+  .contacts__wrap {
+    display: flex;
+    justify-content: center;
+  }
+  .contact,
+  .contact__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .contact__copyright_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact__copyright {
+    display: flex;
+    gap: 32px;
+    &_descr {
+      font-size: 18px;
+      font-weight: 300;
+      margin-left: 12px;
+    }
+  }
+  .contact {
+    margin-left: 100px;
+    margin-right: 60px;
+  }
+}
+.contact__copyright_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(87.32deg, #e2a300 4.47%, #e29500 95.53%);
+  border-radius: 50px;
+  cursor: pointer;
+  & img {
+    rotate: 90deg;
+  }
+}
