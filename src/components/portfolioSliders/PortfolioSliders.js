@@ -17,7 +17,7 @@ const PortfolioSliders = () => {
       <div className="portfolio__slider_wrap">
         {sliders.map((slider) => {
           return (
-            <div id="slider" className="portfolio__slider">
+            <div className="portfolio__slider">
               <div className="portfolio__slider_img">
                 <img src={slider.img} />
               </div>
